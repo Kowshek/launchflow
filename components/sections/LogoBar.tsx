@@ -111,7 +111,7 @@ export default function LogoBar({ speed = NORMAL_SPEED }: { speed?: number }) {
         }}
       />
 
-      <div className="py-10" onMouseEnter={onEnter} onMouseLeave={onLeave}>
+      <div className="pt-8 pb-10" onMouseEnter={onEnter} onMouseLeave={onLeave}>
         <p className="mb-8 select-none text-center text-xs uppercase tracking-widest text-muted">
           Trusted by teams at
         </p>

@@ -24,8 +24,8 @@ export default function Hero() {
   return (
     <section
       className={cn(
-        "relative flex min-h-[calc(85vh-4rem)] flex-col items-center justify-start",
-        "px-6 pt-24 pb-12 text-center md:pt-32"
+        "relative flex flex-col items-center justify-start",
+        "px-6 pt-24 pb-16 text-center md:pt-28 md:pb-20"
       )}
       aria-label="Hero"
     >
